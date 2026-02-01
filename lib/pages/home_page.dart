@@ -34,7 +34,17 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
-      body: const Column(),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Text('Hello Kitty'),
+          Text('Hello Kitty'),
+          Text('Hello Kitty'),
+          Text('Hello Kitty'),
+          Text('Hello Kitty'),
+          Text('Hello Kitty'),
+        ],
+      ),
     );
   }
 }
